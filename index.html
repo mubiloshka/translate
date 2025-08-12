@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Переводчик</h1>
+
+        <textarea id="inputText" placeholder="Введите текст"></textarea>
+
+        <div class="selectors">
+            <select id="sourceLang"></select>
+            <select id="targetLang"></select>
+        </div>
+
+        <button onclick="translateText()">Перевести</button>
+
+        <textarea id="outputText" placeholder="Перевод" ></textarea>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
